@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research | Michael Cannon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="research">
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="wordmark" href="index.html">Michael Cannon</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="research.html" aria-current="page">Research</a>
+          <a href="cv.html">CV</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="partner.html">Partner With Me</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Research</p>
+          <h1>A research agenda organized for both specialists and adjacent readers</h1>
+          <p class="page-lede">
+            My work examines how employees succeed or struggle across
+            professional, moral, and nonwork domains. The filters below are
+            designed to help visitors quickly find projects that overlap with
+            their interests, methods, or disciplinary lens.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filter-toolbar">
+            <label>
+              Topic Area
+              <select data-filter="topic">
+                <option value="all">All</option>
+                <option value="behavioral-ethics">Behavioral Ethics</option>
+                <option value="work-nonwork">Work-Nonwork Interface</option>
+                <option value="performance-proactivity">Performance and Proactivity</option>
+                <option value="relationships-communication">Interpersonal Relationships and Communication</option>
+              </select>
+            </label>
+            <label>
+              Data Source
+              <select data-filter="data">
+                <option value="all">All</option>
+                <option value="field-data">Field Data</option>
+                <option value="online-experiments">Online Experiments</option>
+                <option value="in-person-experiments">In-Person Experiments</option>
+                <option value="archival-data">Archival Data</option>
+              </select>
+            </label>
+            <label>
+              Method
+              <select data-filter="method">
+                <option value="all">All</option>
+                <option value="experience-sampling">Experience Sampling</option>
+                <option value="experiments">Experiments</option>
+                <option value="ai-assisted-annotation">AI-Assisted Annotation</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="card-grid" data-card-grid>
+            <article class="research-card" data-topic="behavioral-ethics" data-data="field-data" data-method="experience-sampling">
+              <p class="card-type">Working Paper</p>
+              <h2>When employees rationalize small ethical compromises</h2>
+              <p class="card-hook">Question: How do ordinary workplace pressures slowly reshape moral judgment?</p>
+              <p>
+                This study investigates how repeated demands, norms, and situational cues
+                can alter the way employees understand and justify ethically ambiguous action.
+              </p>
+              <p><strong>Why it matters:</strong> Small ethical shifts can accumulate into major organizational consequences.</p>
+            </article>
+
+            <article class="research-card" data-topic="work-nonwork" data-data="online-experiments" data-method="experiments">
+              <p class="card-type">Project in Development</p>
+              <h2>How unfinished work spills over into life outside the office</h2>
+              <p class="card-hook">Question: What makes some work demands especially hard to leave behind?</p>
+              <p>
+                This project explores the mechanisms through which work intrudes on
+                personal life, and how those mechanisms shape recovery, strain, and well-being.
+              </p>
+              <p><strong>Why it matters:</strong> Understanding spillover helps clarify the boundaries between work strain and human flourishing.</p>
+            </article>
+
+            <article class="research-card" data-topic="performance-proactivity" data-data="field-data" data-method="ai-assisted-annotation">
+              <p class="card-type">Current Study</p>
+              <h2>Recognizing initiative before it becomes visible performance</h2>
+              <p class="card-hook">Question: How can we better identify employees who are proactive in subtle but meaningful ways?</p>
+              <p>
+                This work uses field evidence and AI-assisted annotation to surface
+                indicators of initiative that may not appear in conventional performance metrics.
+              </p>
+              <p><strong>Why it matters:</strong> Organizations often reward visible outcomes while missing the behaviors that create them.</p>
+            </article>
+
+            <article class="research-card" data-topic="relationships-communication" data-data="in-person-experiments" data-method="experiments">
+              <p class="card-type">Featured Idea</p>
+              <h2>Communication patterns that strengthen or strain workplace relationships</h2>
+              <p class="card-hook">Question: Why do some difficult conversations build trust while others weaken it?</p>
+              <p>
+                I examine how employees interpret communication signals and how those
+                interpretations shape conflict, cooperation, and relational durability.
+              </p>
+              <p><strong>Why it matters:</strong> Interpersonal processes are often the path through which broader organizational dynamics become personal and consequential.</p>
+            </article>
+          </div>
+
+          <p class="empty-state" data-empty-state hidden>
+            No projects match that exact filter combination yet.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-name">Michael Cannon</p>
+          <p>Management & Organizational Behavior</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="cv.html">CV</a>
+          <a href="partner.html">Partner With Me</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
