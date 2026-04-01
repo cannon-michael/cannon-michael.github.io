@@ -230,6 +230,26 @@ p {
   padding: 1.5rem;
 }
 
+.headshot-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+  margin-bottom: 1.25rem;
+  padding: 1.5rem;
+  border-radius: 22px;
+  border: 1px dashed rgba(111, 46, 24, 0.28);
+  background:
+    linear-gradient(180deg, rgba(255, 250, 241, 0.9), rgba(235, 226, 210, 0.7));
+  text-align: center;
+}
+
+.headshot-label {
+  margin-bottom: 0.4rem;
+  font-family: "Newsreader", serif;
+  font-size: 1.35rem;
+  color: var(--accent-deep);
+}
+
 .quick-facts,
 .tag-list,
 .detail-list {
@@ -293,7 +313,7 @@ p {
 
 .filter-toolbar {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
 }

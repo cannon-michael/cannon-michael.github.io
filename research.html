@@ -72,11 +72,26 @@
                 <option value="ai-assisted-annotation">AI-Assisted Annotation</option>
               </select>
             </label>
+            <label>
+              Manuscript Stage
+              <select data-filter="stage">
+                <option value="all">All</option>
+                <option value="published">Published</option>
+                <option value="conditionally-accepted">Conditionally Accepted</option>
+                <option value="r-and-r">R&amp;R</option>
+                <option value="under-review">Under Review</option>
+                <option value="preparing-for-submission">Preparing for Submission</option>
+                <option value="writing">Writing</option>
+                <option value="data-analysis">Data Analysis</option>
+                <option value="data-collection">Data Collection</option>
+                <option value="model-brainstorming">Model Brainstorming</option>
+              </select>
+            </label>
           </div>
 
           <div class="card-grid" data-card-grid>
-            <article class="research-card" data-topic="behavioral-ethics" data-data="field-data" data-method="experience-sampling">
-              <p class="card-type">Working Paper</p>
+            <article class="research-card" data-topic="behavioral-ethics" data-data="field-data" data-method="experience-sampling" data-stage="under-review">
+              <p class="card-type">Under Review</p>
               <h2>When employees rationalize small ethical compromises</h2>
               <p class="card-hook">Question: How do ordinary workplace pressures slowly reshape moral judgment?</p>
               <p>
@@ -86,8 +101,8 @@
               <p><strong>Why it matters:</strong> Small ethical shifts can accumulate into major organizational consequences.</p>
             </article>
 
-            <article class="research-card" data-topic="work-nonwork" data-data="online-experiments" data-method="experiments">
-              <p class="card-type">Project in Development</p>
+            <article class="research-card" data-topic="work-nonwork" data-data="online-experiments" data-method="experiments" data-stage="writing">
+              <p class="card-type">Writing</p>
               <h2>How unfinished work spills over into life outside the office</h2>
               <p class="card-hook">Question: What makes some work demands especially hard to leave behind?</p>
               <p>
@@ -97,8 +112,8 @@
               <p><strong>Why it matters:</strong> Understanding spillover helps clarify the boundaries between work strain and human flourishing.</p>
             </article>
 
-            <article class="research-card" data-topic="performance-proactivity" data-data="field-data" data-method="ai-assisted-annotation">
-              <p class="card-type">Current Study</p>
+            <article class="research-card" data-topic="performance-proactivity" data-data="field-data" data-method="ai-assisted-annotation" data-stage="data-analysis">
+              <p class="card-type">Data Analysis</p>
               <h2>Recognizing initiative before it becomes visible performance</h2>
               <p class="card-hook">Question: How can we better identify employees who are proactive in subtle but meaningful ways?</p>
               <p>
@@ -108,8 +123,8 @@
               <p><strong>Why it matters:</strong> Organizations often reward visible outcomes while missing the behaviors that create them.</p>
             </article>
 
-            <article class="research-card" data-topic="relationships-communication" data-data="in-person-experiments" data-method="experiments">
-              <p class="card-type">Featured Idea</p>
+            <article class="research-card" data-topic="relationships-communication" data-data="in-person-experiments" data-method="experiments" data-stage="model-brainstorming">
+              <p class="card-type">Model Brainstorming</p>
               <h2>Communication patterns that strengthen or strain workplace relationships</h2>
               <p class="card-hook">Question: Why do some difficult conversations build trust while others weaken it?</p>
               <p>
@@ -131,7 +146,7 @@
       <div class="container footer-grid">
         <div>
           <p class="footer-name">Michael Cannon</p>
-          <p>Management & Organizational Behavior</p>
+          <p>Organizational Behavior</p>
         </div>
         <div class="footer-links">
           <a href="index.html">Home</a>
